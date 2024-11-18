@@ -13,10 +13,14 @@
         <module name="ServiceRegistry" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ConfigServer" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="APIGateWay" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
       <module name="DepartmentService" options="-parameters" />
       <module name="ServiceRegistry" options="-parameters" />
       <module name="StudentService" options="-parameters" />
